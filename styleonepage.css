@@ -1,0 +1,122 @@
+nav
+{
+	display:inline-block;
+	text-align: right;
+}
+nav ul 
+{
+	list-style-type : none;
+}
+nav li 
+{
+	display: inline-block;
+	margin-right:0px;
+}
+nav a 
+{
+	font-size:1.3em;
+	color : black;
+	padding-bottom:0px;
+	text-decoration : none;
+} 
+nav a :hover 
+{
+	color : black;
+	border-bottom: 3px solid black;
+}
+@font-face 
+{ 
+	font-family: 'quicksandregular';
+	src: url('typo/quiksandregular/quicks-and-regular-webfont.eot');
+	src: url('typo/quicksandregular/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('typo/quicksandregular/quicksand-regular-webfont.woff') format('woff'),
+		url('typo/quicksandregular/quicksand-regular-webfont.ttf') format('truetype'),
+		url('typo/quicksandregular/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*
+{
+	padding-right:50px;
+	padding-left : 50px;
+	text-align: center; 
+	font-family: "quicksandregular";
+}
+ 
+
+ 
+.présentation 
+{
+	font-size : x-large; 
+	color : grey ;
+	text-align : center;  
+	font-weight: bold; 
+	
+}
+.flèche
+{
+	position : fixed; 
+	bottom : 0px; 
+	right: 0px; 
+	opacity: 0.5; 
+}
+p
+{
+	font-size : normal; 
+	color : black; 
+	text-align: justify; 
+	padding-right : 100px; 
+	padding-left: 100px; 
+}
+h1, h2, h3, h4 
+{
+	text-align : left
+}
+
+
+.ligne 
+{
+	border-bottom: dashed 1px; opacity: 0.5; 
+	
+}
+.encadré
+{
+background-color: #AEAEAE; 
+color : black;
+border-left: 5px;
+border-right: 5px; 
+border-radius:10px 10px 10px 10px;
+}
+.photome
+{
+float: left;
+}
+.dessous
+{
+clear : both;
+}
+.presentation
+{
+text-align : right; 
+}
+
+.Aproposdemoi 
+{
+	font-size : x-large; 
+	font-weight : bold; 
+}
+
+.monCV
+{
+	text-align : left; 
+}
+
+.CV
+{
+text-align : left; 
+}
+
+
+
+
+
